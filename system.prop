@@ -36,6 +36,8 @@ audio.offload.video=true
 av.offload.enable=true
 av.streaming.offload.enable=false
 
+ro.config.vc_call_vol_steps=7
+
 # Bluetooth
 vendor.qcom.bluetooth.soc=smd
 ro.bluetooth.dun=true
