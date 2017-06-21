@@ -1,4 +1,4 @@
-#
+\#
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -270,6 +270,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     sensors.msm8916
+
+# Strip debug
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
 # Telephony-ext
 PRODUCT_PACKAGES += \
