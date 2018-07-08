@@ -131,6 +131,9 @@ BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 # HIDL
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
