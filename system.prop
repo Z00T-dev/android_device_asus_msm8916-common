@@ -87,6 +87,7 @@ ro.enable_boot_charger_mode=1
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
+vendor.mediacodec.binder.size=6
 
 # Netmgrd
 persist.data.netmgrd.qos.enable=true
