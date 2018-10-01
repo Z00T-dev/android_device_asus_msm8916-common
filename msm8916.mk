@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     izat.conf \
     sap.conf
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0
+
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
