@@ -93,6 +93,9 @@ vendor.mediacodec.binder.size=6
 persist.data.netmgrd.qos.enable=true
 ro.use_data_netmgrd=true
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 sys.use_fifo_ui=1
