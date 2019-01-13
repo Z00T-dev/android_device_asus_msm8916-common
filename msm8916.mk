@@ -303,6 +303,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermal/thermal-engine-8939-ze600kl.conf:system/etc/thermal-engine-8939-ze600kl.conf \
     $(LOCAL_PATH)/thermal/thermal-engine-8939-ze601kl.conf:system/etc/thermal-engine-8939-ze601kl.conf
 
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
