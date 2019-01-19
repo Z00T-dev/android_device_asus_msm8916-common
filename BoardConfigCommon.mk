@@ -171,6 +171,10 @@ USE_OPENGL_RENDERER := true
 include device/qcom/sepolicy-legacy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
+# SDCLANG
+TARGET_USE_SDCLANG := false
+SDCLANG := false
+
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib64/libcneapiclient.so|libshims_cne.so \
