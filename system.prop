@@ -93,9 +93,6 @@ vendor.mediacodec.binder.size=6
 persist.data.netmgrd.qos.enable=true
 ro.use_data_netmgrd=true
 
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
-
 # Perf
 ro.am.reschedule_service=true
 ro.config.max_starting_bg=8
