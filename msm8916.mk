@@ -305,7 +305,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     telephony-ext \
     ims-ext-common \
-    qti-telephony-common
+    qti-telephony-common \
+    libshims_ims
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
