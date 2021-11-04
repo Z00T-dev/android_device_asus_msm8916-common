@@ -100,7 +100,6 @@ ifeq ($(HOST_OS),linux)
       DONT_DEXPREOPT_PREBUILTS := true
       USE_DEX2OAT_DEBUG := false
       WITH_DEXPREOPT_DEBUG_INFO := false
-    endif
   endif
 endif
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
