@@ -287,7 +287,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 # Telephony packages
 PRODUCT_PACKAGES += \
     telephony-ext \
-    ims-ext-common
+    ims-ext-common \
+    libshims_ims
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
