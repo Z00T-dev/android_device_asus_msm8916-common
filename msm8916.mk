@@ -122,10 +122,6 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libshims_cne
 
-# Doze
-PRODUCT_PACKAGES += \
-   ZenfoneDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
