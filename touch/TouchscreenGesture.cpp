@@ -42,7 +42,7 @@ const std::unordered_map<int32_t, GestureInfo> kGestureInfoMap = {
     {5, {264, "z Letter", 0x02}},
 };
 
-constexpr const char kControlPath[] = "/sys/bus/i2c/devices/i2c-3/3-0038/gesture_mode";
+constexpr const char kControlPath[] = "/sys/bus/i2c/devices/i2c-5/5-0038/gesture_mode";
 
 }  // anonymous namespace
 

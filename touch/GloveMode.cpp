@@ -26,7 +26,7 @@ namespace touch {
 namespace V1_0 {
 namespace implementation {
 
-constexpr const char kControlPath[] = "/sys/bus/i2c/devices/i2c-3/3-0038/glove_mode";
+constexpr const char kControlPath[] = "/sys/bus/i2c/devices/i2c-5/5-0038/glove_mode";
 
 GloveMode::GloveMode() {
     mHasGloveMode = !access(kControlPath, F_OK);
